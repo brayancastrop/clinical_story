@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :patients
+
   resources :memberships
 
   resources :notes
